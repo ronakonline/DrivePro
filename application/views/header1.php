@@ -2,7 +2,7 @@
 <header class="header">
 
 	<div class="container clearfix">
-		<div class="logo"><a href="index.html"><img src="<?php echo base_url();?>assets/images/logo.png" alt="Drive Pro"></a></div>
+		<div class="logo"><a href="<?php echo base_url(); ?>Home"><img src="<?php echo base_url();?>assets/images/logo.png" alt="Drive Pro"></a></div>
 		<div class="header-contacts">
 			<div class="header-contact">
 				<div class="small-round-icon"><i class="fa fa-map-marker"></i></div>

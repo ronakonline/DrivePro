@@ -36,7 +36,7 @@
 					</li>
 					<li><a href="#">Locations</a></li>
 					<li><a href="#">Resources</a></li>
-					<li><a href="<?php echo base_url(); ?>">Contact</a></li>
+					<li><a href="<?php echo base_url(); ?>/Contact">Contact</a></li>
 					<li><a href="#">Login</a></li>
 				</ul>
 			</nav> <!-- end .main-nav -->

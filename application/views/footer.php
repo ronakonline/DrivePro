@@ -62,6 +62,6 @@
 			</div> <!-- end .col-sm-3 -->
 		</div> <!-- end .row -->
 		<div class="copyright-content">
-			Copyright © 2020. Designer by <a href="https://knswebsolutions.com"> KNS Web Solution</a>. All Rights Reserved</div>
+			Copyright © 2020. Designed and Developed by <a href="https://knswebsolutions.com"> KNS Web Solution</a>. All Rights Reserved</div>
 	</div> <!-- end .container -->
 </footer> <!-- end .footer -->

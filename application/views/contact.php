@@ -1,43 +1,31 @@
 <?php $this->load->view('css-links'); ?>
-<?php $this->load->view('header1'); ?>
+<?php $this->load->view('header'); ?>
 
 
-
+<div class="page-title transparent" style="background-image: url('<?php echo base_url();?>assets/images/background01.jpg');">
+	<div class="inner">
+		<h3>Contact</h3>
+	</div> <!-- end .inner -->
+</div> <!-- end .page-title -->
+<div class="breadcrumbs">
+	<div class="container">
+		<span class="breadcrumbs-page-title"></span>
+		<nav class="breadcrumbs-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li>Contact</li>
+			</ul>
+		</nav> <!-- end .breadcrumbs-nav -->
+	</div> <!-- end .container -->
+</div> <!-- end .breadcrumbs -->
 		<!-- Contact -->
-		<div class="full-width-map" id="full-width-map"></div>
+		<div class="full-width-map" id=""> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.566807137018!2d-96.73912728481119!3d33.04154148089288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19ac8c6cd717%3A0x25c1813efb06e3a5!2sCyfair%20Driving%20School%20Plano!5e0!3m2!1sen!2sin!4v1583334062971!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
 		<section class="section yellow text-center">
 			<div class="inner">
 				<div class="container-fluid">
-					<div class="contacts">
-						<h5 class="text-center">Come Let's Talk Together</h5>
-						<hr class="small-line" />
-						<div class="row">
-							<div class="col-sm-4">
-								<div class="contact">
-									<div class="icon"><i class="fa fa-map-marker"></i></div>
-									<div class="inner">Detach Driving Design Street Australia</div>
-								</div> <!-- end .contact -->
-							</div> <!-- end .col-sm-4 -->
-							<div class="col-sm-4">
-								<div class="contact">
-									<div class="icon"><i class="fa fa-phone"></i></div>
-									<div class="inner">+123 456 789 001</div>
-								</div> <!-- end .contact -->
-								<div class="contact">
-									<div class="icon"><i class="fa fa-fax"></i></div>
-									<div class="inner">987 654 3210</div>
-								</div> <!-- end .contact -->
-							</div> <!-- end .col-sm-4 -->
-							<div class="col-sm-4">
-								<div class="contact">
-									<div class="icon"><i class="fa fa-envelope"></i></div>
-									<div class="inner">driving@test.com</div>
-								</div> <!-- end .contact -->
-							</div> <!-- end .col-sm-4 -->
-						</div> <!-- end .row -->
-						<a href=""><i class="fa fa-chevron-right"></i> Route</a>
-					</div> <!-- end .contacts -->
-					<h2 class="contact-heading">Send Us A Message</h2>
+					<h2 class="contact-heading" style="
+    margin-top: 0px;
+">Send Us A Message</h2>
 				</div> <!-- end .container -->
 			</div> <!-- end .inner -->
 		</section> <!-- end .section -->

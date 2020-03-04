@@ -15,48 +15,26 @@
 					</div> <!-- end .social-icons -->
 				</div> <!-- end .widget -->
 			</div> <!-- end .col-sm-3 -->
-			<div class="col-sm-2 col-sm-offset-1">
+			<div class="col-sm-3 col-sm-offset-1">
 				<div class="widget">
-					<h5>Categories</h5>
+					<h5>Quick Links</h5>
 					<ul class="list-unstyled">
-						<li><a href="">Driving</a></li>
-						<li><a href="">Exam</a></li>
-						<li><a href="">Instruction</a></li>
-						<li><a href="">Instructor</a></li>
-						<li><a href="">License</a></li>
+						<li><a href="<?php echo base_url(); ?>management-opportunities">MANAGEMENT OPPORTUNITIES</a></li>
+						<li><a href="<?php echo base_url(); ?>registration-payment">REGISTRATION/PAYMENT</a></li>
+
+						<li><a href="<?php echo base_url(); ?>instructor-training">INSTRUCTOR TRAINING</a></li>
+						<li><a href="<?php echo base_url(); ?>defensived-driving">DEFENSIVE DRIVING</a></li>
+
+						<li><a href="<?php echo base_url(); ?>online-courses">ONLINE COURSES</a></li>
+						<li><a href="<?php echo base_url(); ?>parent-taught">PARENT TAUGHT</a></li>
 					</ul>
 				</div> <!-- end .widget -->
 			</div> <!-- end .col-sm-2 -->
-			<div class="col-sm-3">
-				<div class="widget">
-					<h5>Latest Post</h5>
-					<div class="latest-post clearfix">
-						<img src="<?php echo base_url();?>assets/images/latest01.jpg" alt="alt" class="img-responsive">
-						<div>
-							<h6><a href="">Tips To Drive Safe</a></h6>
-							<span>Jan 5, 2014</span>
-						</div>
-					</div> <!-- end .latest-post -->
-					<div class="latest-post clearfix">
-						<img src="<?php echo base_url();?>assets/images/latest02.jpg" alt="alt" class="img-responsive">
-						<div>
-							<h6><a href="">We Like Races Here</a></h6>
-							<span>Jan 5, 2014</span>
-						</div>
-					</div> <!-- end .latest-post -->
-					<div class="latest-post clearfix">
-						<img src="<?php echo base_url();?>assets/images/latest03.jpg" alt="alt" class="img-responsive">
-						<div>
-							<h6><a href="">Defensive Course</a></h6>
-							<span>Jan 5, 2014</span>
-						</div>
-					</div> <!-- end .latest-post -->
-				</div> <!-- end .widget -->
-			</div> <!-- end .col-sm-3 -->
-			<div class="col-sm-3">
+
+			<div class="col-sm-5">
 				<div class="widget">
 					<h5>Location</h5>
-					<div class="mapouter"><div class="gmap_canvas"><iframe width="295" height="191" id="gmap_canvas" src="https://maps.google.com/maps?q=700%20W%20Spring%20Creek%20Pkwy%20%23106%2C%20Plano%2C%20TX%2075023%2C%20United%20States&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:191px;width:295px;}.gmap_canvas {overflow:hidden;background:none!important;height:191px;width:295px;}</style></div>
+					<div class="mapouter"><div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.566807137018!2d-96.73912728481119!3d33.04154148089288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19ac8c6cd717%3A0x25c1813efb06e3a5!2sCyfair%20Driving%20School%20Plano!5e0!3m2!1sen!2sin!4v1583333795528!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div><style>.mapouter{position:relative;text-align:right;height:191px;width:600pxpx;}.gmap_canvas {overflow:hidden;background:none!important;height:191px;width:600pxpx;}</style></div>
 
 				</div> <!-- end .widget -->
 			</div> <!-- end .col-sm-3 -->

@@ -3,7 +3,7 @@
 
 <div class="page-title transparent" style="background-image: url('<?php echo base_url();?>assets/images/background01.jpg');">
 	<div class="inner">
-		<h3><?php echo'abc' ?></h3>
+		<h3><?php echo $title; ?></h3>
 	</div> <!-- end .inner -->
 </div> <!-- end .page-title -->
 <div class="breadcrumbs">
@@ -12,7 +12,7 @@
 		<nav class="breadcrumbs-nav">
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li></li>
+				<li><?php echo $title; ?></li>
 			</ul>
 		</nav> <!-- end .breadcrumbs-nav -->
 	</div> <!-- end .container -->
@@ -27,25 +27,14 @@
 					<!-- Blog -->
 					<div class="blog-post text-center">
 						<div class="blog-post-image">
-							<a href="single-page.html"><img src="<?php echo base_url();?>assets/images/blog-post-image01.jpg" alt="alt text" class="img-responsive"></a>
+							<a href="single-page.html"><img src="<?php echo base_url();?>assets/images/<?php echo $img; ?>" alt="alt text" class="img-responsive"></a>
 						</div> <!-- end .blog-post-image -->
-						
+
 						<div class="blog-post-title">
-							<h6><a href="single-page.html">my dreams come true</a></h6>
+							<h4><a href="single-page.html"><?php echo $title; ?></a></h4>
 						</div> <!-- end .blog-post-title -->
 						<div class="blog-post-content">
-							<p>Believe it or not I'm walking on air. I never thought I could feel so free. No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be. One two three four five six seven eight Sclemeel schlemazel hasenfeffer incorporated. Knight Rider.Believe it or not I'm walking on air. I never thought I could feel so free.</p>
-							<p class="lead">Believe it or not I'm walking on air. I never thought I could feel so free. No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
-							<blockquote>
-								<p>Believe it or not I'm walking on air. I never thought I could feel so free. No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.Believe it or not I'm walking on air. I never thought I could feel so free.</p>
-							</blockquote>
-							<p>Believe it or not I'm walking on air. I never thought I could feel so free. No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.Believe it or not I'm walking on air. I never thought I could feel so free.</p>
-							<ul>
-								<li>Clean &amp; Bold Design</li>
-								<li>Full Page Concept</li>
-								<li>Minimalistic Look</li>
-							</ul>
-							<p>Believe it or not I'm walking on air. I never thought I could feel so free. No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.Believe it or not I'm walking on air. I never thought I could feel so free.</p>
+							<p><?php echo $content; ?></p>
 						</div> <!-- end .blog-post-content -->
 
 

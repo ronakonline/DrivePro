@@ -2411,7 +2411,7 @@ div:hover>.small-round-icon {
 	content: '';
 	display: block;
 	height: 5px;
-	width: 108px;
+	width: 60%;
 	border-top: 1px solid #827c7c;
 	border-bottom: 1px solid #827c7c;
 	margin: 18px auto

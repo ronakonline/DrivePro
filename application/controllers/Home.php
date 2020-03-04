@@ -5,6 +5,7 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
+		ini_set('display_errors',1);
 		$this->load->view('index');
 	}
 }

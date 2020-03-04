@@ -1,24 +1,33 @@
 <?php $this->load->view('css-links'); ?>
 <?php $this->load->view('header'); ?>
 
-
+<style>
+	#myVideo {
+		right: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		height: 50%;
+		width: 100%;
+		float: left;
+		margin-right: -100%;
+		object-fit: fill;
+	}
+</style>
 		<!-- Home Slider -->
 		<div id="homeslider" class="flexslider homeslider">
 			<div class="slides">
-				<div style="background-image: url('<?php echo base_url();?>assets/images/slider04.jpg');">
+				<div >
+					<video autoplay muted loop id="myVideo">
+						<source src="<?php echo base_url();?>assets/images/bkg.webm" type="video/mp4">
+					</video>
 					<div class="caption blue">
 						<h4>WHY WAIT FOR MONTH FOR A  ROAD TEST?</h4>
 						<p>REGISTER TODAY. ROAD TESTING TEEN AND ADULTS TODAY.</p>
 						<p><a href="">Find Out More <i class="fa fa-angle-double-right"></i></a></p>
 					</div> <!-- end .caption -->
 				</div>
-				<div style="background-image: url('<?php echo base_url();?>assets/images/slider01.jpg');">
-					<div class="caption blue">
-						<h4>HELPING PREPARE YOU FOR THE ROAD!</h4>
-						<p>REGISTER TODAY.AND GET IT DONE WITH IN DAYS WITH OUR HELP.</p>
-						<p><a href="">Find Out More <i class="fa fa-angle-double-right"></i></a></p>
-					</div> <!-- end .caption -->
-				</div>
+
 			</div> <!-- end .slides -->
 		</div> <!-- end homeslider -->
 

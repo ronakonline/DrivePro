@@ -5,11 +5,11 @@
 		<div class="header-contacts">
 			<div class="header-contact">
 				<div class="small-round-icon"><i class="fa fa-map-marker"></i></div>
-				Dallas, United States
+				Plano, TX 75023
 			</div>  <!-- end .header-contact -->
 			<div class="header-contact">
 				<div class="small-round-icon"><i class="fa fa-envelope"></i></div>
-				Info@Defatch.com
+				naeemjahangir@gmail.com
 			</div>  <!-- end .header-contact -->
 			<div class="header-contact">
 				<div class="small-round-icon"><i class="fa fa-phone"></i></div>
@@ -26,30 +26,31 @@
 					<li><a href="#">Minors/Teens</a>
 						<ul>
 							<li><a href="<?php echo base_url(); ?>minors">Minors/Teens</a></li>
-							<li><a href="#">Teen Class Schedule</a></li>
-							<li><a href="#">Summer Special</a></li>
+							<li><a href="<?php echo base_url(); ?>teen">Teen Class Schedule</a></li>
+							<li><a href="<?php echo base_url(); ?>summers">Summer Special</a></li>
 						</ul>
 					</li>
 					<li><a href="#">Road Tests</a></li>
-					<li><a href="#">Adults</a></li>
-					<li><a href="<?php echo base_url(); ?>Contact">More</a>
+					<li><a href="<?php echo base_url(); ?>adults">Adults</a></li>
+					<li><a href="#">More</a>
 						<ul>
 							<li><a href="#">OUR LOCATIONS</a>
 								<ul>
 									<li><a href="#">Greater Dallas</a> </li>
 								</ul>
 							</li>
-							<li><a href="#">DEFENSIVE DRIVING</a></li>
-							<li><a href="#">INSTRUCTOR TRAINING</a></li>
-							<li><a href="#">MANAGEMENT OPPORTUNITIES</a></li>
-							<li><a href="#">REGISTRATION/PAYMENT</a></li>
-							<li><a href="#">ONLINE COURSES</a></li>
-							<li><a href="#">PARENT TAUGHT</a></li>
-							<li><a href="#">CONTINUING EDUCATION</a></li>
-							<li><a href="#">MEET OUR OFFICIALS</a></li>
+							<li><a href="<?php echo base_url(); ?>defensived-driving">DEFENSIVE DRIVING</a></li>
+							<li><a href="<?php echo base_url(); ?>instructor-training">INSTRUCTOR TRAINING</a></li>
+							<li><a href="<?php echo base_url(); ?>management-opportunities">MANAGEMENT OPPORTUNITIES</a></li>
+							<li><a href="<?php echo base_url(); ?>registration-payment">REGISTRATION/PAYMENT</a></li>
+							<li><a href="<?php echo base_url(); ?>online-courses">ONLINE COURSES</a></li>
+							<li><a href="<?php echo base_url(); ?>parent-taught">PARENT TAUGHT</a></li>
+							<li><a href="<?php echo base_url(); ?>continuing-education">CONTINUING EDUCATION</a></li>
+							<li><a href="<?php echo base_url(); ?>meet-our-officials">MEET OUR OFFICIALS</a></li>
 
 						</ul>
 					</li>
+					<li><a href="<?php echo base_url(); ?>Contact">Contact</a></li>
 				</ul>
 			</nav> <!-- end .main-nav -->
 			<!-- end .search-form -->
